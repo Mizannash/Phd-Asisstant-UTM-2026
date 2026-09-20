@@ -4,3 +4,7 @@ __pycache__/
 *.log
 output/analytics/*
 !output/analytics/actual_calls.csv
+.streamlit/secrets.toml
+output/chroma_db/
+data/cache/
+output/failed_json/
