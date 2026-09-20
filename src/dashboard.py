@@ -116,6 +116,14 @@ def render_paper_card(paper, index_prefix):
             st.write(paper.get('abstract', 'No abstract provided.'))
 
 def main():
+    if "storage_pulled" not in st.session_state:
+        try:
+            from src.core.storage import StorageHandler
+            StorageHandler.pull_state()
+        except Exception as e:
+            print(f"Failed to pull state on start: {e}")
+        st.session_state.storage_pulled = True
+        
     if "cache_hits" not in st.session_state:
         st.session_state.cache_hits = 0
         

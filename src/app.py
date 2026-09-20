@@ -20,6 +20,15 @@ def init_page():
     load_dotenv(env_path)
 
 def main():
+    import streamlit as st
+    if "storage_pulled" not in st.session_state:
+        try:
+            from src.core.storage import StorageHandler
+            StorageHandler.pull_state()
+        except Exception as e:
+            print(f"Failed to pull state on start: {e}")
+        st.session_state.storage_pulled = True
+        
     init_page()
     
     st.title("🎓 CrewAI PhD Research Assistant")
