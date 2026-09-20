@@ -1,0 +1,76 @@
+- **[2026-09-02 21:53:34]** `[NOVELTY_THREAT]` Paper 'Integrating AI in KV' has 92% overlap with candidate title 'Integrating Generative AI into Kolej Vokasional Construction Technology: A Pedagogical Execution Study'.
+- **[2026-09-02 22:09:40]** `[RESTORE]` Restored library from backup: library_backup_2026-09-02_2153.json
+- **[2026-09-02 22:45:38]** `[NOVELTY_THREAT_YELLOW]` Paper 'Digital competency of vocational college instructors in Malaysia: a mixed-methods study' has 80% semantic overlap with 'AI technology integration among construction technology teachers in Malaysia'.
+- **[2026-09-02 22:58:22]** `[RESTORE]` Restored library from backup: library_backup_2026-09-02_2153.json
+- **[2026-09-02 22:58:27]** `[RESTORE]` Restored library from backup: library_backup_2026-09-02_2153.json
+- **[2026-09-03 14:44:52]** `[SCOUT_SUCCESS]` Successfully scouted and saved 4 papers to library.json
+- **[2026-09-03 15:17:07]** `[MANUAL_ANALYSIS]` Completed manual analysis for mode 'standard'
+- **[2026-09-03 15:32:44]** `[QUOTA_ROTATION]` Rotated to Key 2 due to server overload.
+- **[2026-09-03 15:32:44]** `[QUOTA_ROTATION]` Rotated to Key 3 due to server overload.
+- **[2026-09-03 15:37:13]** `[QUOTA_ROTATION]` Rotated to Key 2 due to daily limit exhaustion.
+- **[2026-09-03 15:37:47]** `[QUOTA_ROTATION]` Rotated to Key 3 due to daily limit exhaustion.
+- **[2026-09-03 15:45:43]** `[QUOTA_ROTATION]` Rotated to Key 2 due to Daily Quota limit.
+- **[2026-09-03 15:45:43]** `[QUOTA_ROTATION]` Rotated to Key 3 due to Daily Quota limit.
+- **[2026-09-03 15:49:46]** `[QUOTA_ROTATION]` Rotated to Key 2 due to Daily Quota limit.
+- **[2026-09-03 15:49:46]** `[QUOTA_ROTATION]` Rotated to Key 3 due to Daily Quota limit.
+- **[2026-09-03 15:52:45]** `[QUOTA_ROTATION]` Rotated to Key 2 due to daily limit exhaustion.
+- **[2026-09-03 15:53:19]** `[QUOTA_ROTATION]` Rotated to Key 3 due to daily limit exhaustion.
+- **[2026-09-03 16:12:37]** `[QUOTA_ROTATION]` Rotated to Key 2 due to Daily Quota limit.
+- **[2026-09-03 16:12:37]** `[QUOTA_ROTATION]` Rotated to Key 3 due to Daily Quota limit.
+- **[2026-09-03 16:15:13]** `[QUOTA_ROTATION]` Rotated to Key 2 due to Daily Quota limit.
+- **[2026-09-03 16:15:13]** `[QUOTA_ROTATION]` Rotated to Key 3 due to Daily Quota limit.
+- **[2026-09-03 16:26:35]** `[QUOTA_ROTATION]` Rotated to Key 2 due to daily limit exhaustion.
+- **[2026-09-03 16:27:11]** `[QUOTA_ROTATION]` Rotated to Key 3 due to daily limit exhaustion.
+- **[2026-09-03 16:32:11]** `[QUOTA_ROTATION]` Rotated to Key 2 due to daily limit exhaustion.
+- **[2026-09-03 16:32:45]** `[QUOTA_ROTATION]` Rotated to Key 3 due to daily limit exhaustion.
+- **[2026-09-03 17:03:29]** `[QUOTA_ROTATION]` Rotated to Key 2 due to Daily Quota limit.
+- **[2026-09-03 17:04:04]** `[QUOTA_ROTATION]` Rotated to Key 3 due to Daily Quota limit.
+- **[2026-09-03 17:40:51]** `[QUOTA_ROTATION]` Rotated to Key 2 due to Daily Quota limit.
+- **[2026-09-03 17:41:25]** `[QUOTA_ROTATION]` Rotated to Key 3 due to Daily Quota limit.
+- **[2026-09-03 20:15:34]** `[QUOTA_ROTATION]` Rotated to Key 2 due to Daily Quota limit.
+- **[2026-09-03 20:16:10]** `[QUOTA_ROTATION]` Rotated to Key 3 due to Daily Quota limit.
+- **[2026-09-03 20:24:44]** `[QUOTA_ROTATION]` Rotated to Key 2 due to Daily Quota limit.
+- **[2026-09-03 20:24:44]** `[QUOTA_ROTATION]` Rotated to Key 3 due to Daily Quota limit.
+- **[2026-09-03 20:43:58]** `[QUOTA_ROTATION]` Rotated to Key 2 due to Daily Quota limit.
+- **[2026-09-03 20:43:58]** `[QUOTA_ROTATION]` Rotated to Key 3 due to Daily Quota limit.
+- **[2026-09-03 20:43:58]** `[QUOTA_ROTATION]` Rotated to Key 4 due to Daily Quota limit.
+- **[2026-09-03 21:00:09]** `[RESTORE]` Restored library from backup: library_backup_2026-09-03_1450.json
+- **[2026-09-03 21:00:16]** `[RESTORE]` Restored library from backup: library_backup_2026-09-02_2153.json
+- **[2026-09-03 21:00:20]** `[RESTORE]` Restored library from backup: library_backup_2026-09-03_1444.json
+- **[2026-09-03 21:00:23]** `[RESTORE]` Restored library from backup: library_backup_2026-09-03_1450.json
+- **[2026-09-03 21:38:46]** `[MANUAL_ANALYSIS]` Completed manual analysis for mode 'standard'
+- **[2026-09-03 21:40:56]** `[RESTORE]` Restored library from backup: library_backup_2026-09-03_1450.json
+- **[2026-09-04 01:20:50]** `[QUOTA_ROTATION]` Rotated to Key 2 due to Daily Quota limit.
+- **[2026-09-04 01:24:38]** `[QUOTA_ROTATION]` Rotated to Key 2 due to Daily Quota limit.
+- **[2026-09-04 02:06:27]** `[SCOUT_SUCCESS]` Successfully scouted and saved 1 new papers (ignored 0 duplicates).
+- **[2026-09-04 02:12:55]** `[SCOUT_SUCCESS]` Successfully scouted and saved 0 new papers (ignored 1 duplicates).
+- **[2026-09-04 02:23:07]** `[QUOTA_ROTATION]` Rotated to Key 2 due to Daily Quota limit.
+- **[2026-09-04 02:23:50]** `[QUOTA_ROTATION]` Rotated to Key 3 due to Daily Quota limit.
+- **[2026-09-04 02:24:35]** `[QUOTA_ROTATION]` Rotated to Key 4 due to Daily Quota limit.
+- **[2026-09-04 02:26:04]** `[QUOTA_ROTATION]` Rotated to Key 2 due to Daily Quota limit.
+- **[2026-09-04 02:26:28]** `[QUOTA_ROTATION]` Rotated to Key 3 due to Daily Quota limit.
+- **[2026-09-04 22:13:20]** `[RESTORE]` Restored library from backup: library_backup_2026-09-04_0212.json
+- **[2026-09-04 22:13:26]** `[RESTORE]` Restored library from backup: library_backup_2026-09-03_1450.json
+- **[2026-09-13 15:33:03]** `[RESTORE]` Restored library from backup: library_backup_2026-09-04_0212.json
+- **[2026-09-13 15:33:10]** `[RESTORE]` Restored library from backup: library_backup_2026-09-03_1450.json
+- **[2026-09-13 15:33:14]** `[RESTORE]` Restored library from backup: library_backup_2026-09-04_0206.json
+- **[2026-09-14 11:23:14]** `[SCOUT_SUCCESS]` Successfully scouted and saved 1 new papers (ignored 0 duplicates).
+- **[2026-09-14 11:23:32]** `[NOVELTY_THREAT_YELLOW]` Paper 'Digital competency of vocational college instructors in Malaysia: a mixed-methods study' has 80% semantic overlap with 'AI technology integration among construction technology teachers in Malaysia'.
+- **[2026-09-14 11:31:18]** `[SCOUT_SUCCESS]` Successfully scouted and saved 1 new papers (ignored 0 duplicates).
+- **[2026-09-14 11:31:35]** `[NOVELTY_THREAT_YELLOW]` Paper 'Digital competency of vocational college instructors in Malaysia: a mixed-methods study' has 80% semantic overlap with 'AI technology integration among construction technology teachers in Malaysia'.
+- **[2026-09-14 12:14:31]** `[SCOUT_SUCCESS]` Successfully scouted and saved 1 new papers (ignored 0 duplicates).
+- **[2026-09-14 12:14:48]** `[NOVELTY_THREAT_YELLOW]` Paper 'Digital competency of vocational college instructors in Malaysia: a mixed-methods study' has 80% semantic overlap with 'AI technology integration among construction technology teachers in Malaysia'.
+- **[2026-09-14 12:16:18]** `[SCOUT_SUCCESS]` Successfully scouted and saved 1 new papers (ignored 0 duplicates).
+- **[2026-09-14 12:16:35]** `[NOVELTY_THREAT_YELLOW]` Paper 'Digital competency of vocational college instructors in Malaysia: a mixed-methods study' has 80% semantic overlap with 'AI technology integration among construction technology teachers in Malaysia'.
+- **[2026-09-14 12:17:49]** `[SCOUT_SUCCESS]` Successfully scouted and saved 1 new papers (ignored 0 duplicates).
+- **[2026-09-14 12:18:06]** `[NOVELTY_THREAT_YELLOW]` Paper 'Digital competency of vocational college instructors in Malaysia: a mixed-methods study' has 80% semantic overlap with 'AI technology integration among construction technology teachers in Malaysia'.
+- **[2026-09-14 21:10:17]** `[QUOTA_ROTATION]` Rotated to Key 2 due to Daily Quota limit.
+- **[2026-09-14 21:21:13]** `[QUOTA_ROTATION]` Rotated to Key 2 due to Daily Quota limit.
+- **[2026-09-14 21:34:17]** `[QUOTA_ROTATION]` Rotated to Key 3 due to Daily Quota limit.
+- **[2026-09-14 21:48:04]** `[QUOTA_ROTATION]` Rotated to Key 2 due to Daily Quota limit.
+- **[2026-09-14 21:48:43]** `[QUOTA_ROTATION]` Rotated to Key 3 due to Daily Quota limit.
+- **[2026-09-14 21:53:28]** `[SCOUT_SUCCESS]` Successfully scouted and saved 1 new papers (ignored 0 duplicates).
+- **[2026-09-14 21:53:46]** `[NOVELTY_THREAT_YELLOW]` Paper 'Digital competency of vocational college instructors in Malaysia: a mixed-methods study' has 80% semantic overlap with 'AI technology integration among construction technology teachers in Malaysia'.
+- **[2026-09-14 22:00:58]** `[QUOTA_ROTATION]` Rotated to Key 4 due to Daily Quota limit.
+- **[2026-09-14 22:03:45]** `[SCOUT_SUCCESS]` Successfully scouted and saved 1 new papers (ignored 0 duplicates).
+- **[2026-09-14 22:04:03]** `[NOVELTY_THREAT_YELLOW]` Paper 'Digital competency of vocational college instructors in Malaysia: a mixed-methods study' has 80% semantic overlap with 'AI technology integration among construction technology teachers in Malaysia'.

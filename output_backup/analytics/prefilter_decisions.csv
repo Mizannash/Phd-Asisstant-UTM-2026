@@ -1,0 +1,66 @@
+Timestamp,Title,DOI,Status,Reason/Score,Matched_Signals
+2026-09-14T10:34:55.187610,Pendidikan Vokasi di Indonesia,10.123/1,Excluded,exclusion_keyword_Indonesia,
+2026-09-14T10:34:55.200985,Pelaksanaan amali di Kolej Vokasional Malaysia,10.123/2,Survived,1,['Kolej Vokasional']
+2026-09-14T10:34:55.209784,Already in Library: Kolej Vokasional Study,10.123/3,Excluded,dedup-skipped,
+2026-09-14T10:34:55.221948,TVET Malaysia: A Comparative Study,10.123/4,Survived,1,['TVET Malaysia']
+2026-09-14T10:34:55.230370,Random Paper,10.123/5,Excluded,below_threshold,[]
+2026-09-14T10:34:55.230370,Another random paper,10.123/6,Excluded,below_threshold,[]
+2026-09-14T10:34:55.242729,Implementation of TVET in SMK,10.123/7,Excluded,exclusion_keyword_SMK,
+2026-09-14T10:34:55.245632,Kolej Vokasional: Osmkosis process in biology,10.123/8,Survived,1,['Kolej Vokasional']
+2026-09-14T10:35:47.207480,How Generative AI Influences Students’ Self-Regulated Learning and Critical Thinking Skills? A Systematic Review,https://doi.org/10.3991/ijep.v15i1.53379,Excluded,below_threshold,[]
+2026-09-14T10:35:47.229263,Generative AI in Education: Mapping the Research Landscape Through Bibliometric Analysis,https://doi.org/10.3390/info16080657,Excluded,below_threshold,[]
+2026-09-14T10:35:47.233986,A Systematic Review of AI Ethics in Education,https://doi.org/10.4018/jgim.386381,Excluded,below_threshold,[]
+2026-09-14T10:35:47.241060,Understanding the role of AI in Malaysian higher education curricula: an analysis of student perceptions,https://doi.org/10.1007/s10791-025-09567-5,Excluded,below_threshold,[]
+2026-09-14T10:35:47.252486,Measuring Teachers' competencies for AI integration: Development and validation of the AI-TPACK in vocational education,https://doi.org/10.1016/j.caeo.2025.100319,Survived,2,"['vocational teacher', 'TPACK']"
+2026-09-14T10:35:47.262543,Generative Artificial Intelligence and Transversal Competencies in Higher Education: A Systematic Review,https://doi.org/10.3390/asi8030083,Excluded,below_threshold,[]
+2026-09-14T10:35:47.268409,Unraveling the mechanisms and effectiveness of AI-assisted feedback in education: A systematic literature review,https://doi.org/10.1016/j.caeo.2025.100284,Excluded,below_threshold,[]
+2026-09-14T10:35:47.268409,Generative artificial intelligence in pedagogical practices: a systematic review of empirical studies (2022–2024),https://doi.org/10.1080/2331186x.2025.2485499,Excluded,below_threshold,[]
+2026-09-14T10:35:47.283141,The Future of Education: A Systematic Literature Review of Self-Directed Learning with AI,https://doi.org/10.3390/fi17080366,Excluded,below_threshold,[]
+2026-09-14T10:35:47.291394,"Exploring the Adoption of Generative Artificial Intelligence by TVET Students: A UTAUT Analysis of Perceptions, Benefits, and Implementation Challenges",https://doi.org/10.52783/jisem.v10i19s.3052,Excluded,below_threshold,[]
+2026-09-14T10:35:47.300229,Pengurusan Pelajar Kelainan Upaya (OKU) dalam Pendidikan Teknikal dan Vokasional (TVET),https://doi.org/10.30880/jttr.2024.02.01.002,Excluded,dedup-skipped,
+2026-09-14T10:35:47.305323,Challenges for Leadership and Management of Technical and Vocational Institutions (TVET) in the Fourth Industrial Revolution (IR 4.0),https://doi.org/10.30880/jttr.2024.02.02.012,Excluded,below_threshold,[]
+2026-09-14T10:35:47.316817,Enhancing TVET Education for the Future: A Comprehensive Review of Strategies and Approaches,https://doi.org/10.37934/araset.56.2.6991,Excluded,below_threshold,[]
+2026-09-14T10:35:47.316817,Generative AI and Educational Assessments: A Systematic Review,https://doi.org/10.70953/erpv51.2412006,Excluded,below_threshold,[]
+2026-09-14T10:35:47.333982,Leveraging AI in E-Learning: Personalized Learning and Adaptive Assessment through Cognitive Neuropsychology—A Systematic Analysis,https://doi.org/10.3390/electronics13183762,Excluded,below_threshold,[]
+2026-09-14T10:35:47.336348,"Towards a New Conceptual Model of AI-Enhanced Learning for College Students: The Roles of Artificial Intelligence Capabilities, General Self-Efficacy, Learning Motivation, and Critical Thinking Awareness",https://doi.org/10.3390/systems12030074,Excluded,below_threshold,[]
+2026-09-14T10:35:47.345884,ChatGPT Promises and Challenges in Education: Computational and Ethical Perspectives,https://doi.org/10.3390/educsci14080814,Excluded,below_threshold,[]
+2026-09-14T10:35:47.355519,A Social Perspective on AI in the Higher Education System: A Semisystematic Literature Review,https://doi.org/10.3390/electronics13081572,Excluded,below_threshold,[]
+2026-09-14T10:35:47.362757,"Persepsi Terhadap Tahap Pelaksanaan Teori, Amali dan Kemahiran Teras Dalam Program Kolej Vokasional",https://doi.org/10.53797/anp.jssh.v4i1.7.2023,Excluded,dedup-skipped,
+2026-09-14T10:35:47.367158,Influencing Factors towards Safety Awareness among Instructors in Selected Public TVET Institutions,https://doi.org/10.56805/grrbe.23.9.1.2,Excluded,dedup-skipped,
+2026-09-14T10:35:47.377246,ELEMEN PELAKSANAAN PENDIDIKAN KEUSAHAWANAN DALAM PROGRAM LATIHAN KEMAHIRAN TVET : SUATU PENELITIAN TERHADAP MASALAH DAN CABARAN,https://doi.org/10.17576/ebangi.2023.2003.09,Excluded,below_threshold,[]
+2026-09-14T10:35:47.387087,Pengaruh Peranan Ibu Bapa Terhadap Kemasukan Pelajar Ke Institusi Teknikal dan Vokasional: Satu Kajian Tinjauan Sistematik,https://doi.org/10.30880/ojtp.2023.08.01.007,Excluded,below_threshold,[]
+2026-09-14T10:35:47.395898,Industrial and Civil Construction 2022,https://doi.org/10.1007/978-3-031-44432-6,Excluded,exclusion_keyword_polytechnic,
+2026-09-14T10:35:47.404152,Teaching and Learning Approaches: Curriculum Framework for Sustainability Literacy for Technical and Vocational Teacher Training Programmes in Malaysia,https://doi.org/10.3390/su15032543,Survived,1,['vocational teacher']
+2026-09-14T10:35:47.411502,Entrepreneurship education in the era of generative artificial intelligence,https://doi.org/10.1007/s41959-023-00099-x,Excluded,below_threshold,[]
+2026-09-14T11:31:41.312530,Pendidikan Vokasi di Indonesia,10.123/1,Excluded,exclusion_keyword_Indonesia,
+2026-09-14T11:31:41.332980,Pelaksanaan amali di Kolej Vokasional Malaysia,10.123/2,Survived,1,['Kolej Vokasional']
+2026-09-14T11:31:41.355827,Already in Library: Kolej Vokasional Study,10.123/3,Excluded,dedup-skipped,
+2026-09-14T11:31:41.378674,TVET Malaysia: A Comparative Study,10.123/4,Survived,1,['TVET Malaysia']
+2026-09-14T11:31:41.404035,Random Paper,10.123/5,Excluded,below_threshold,[]
+2026-09-14T11:31:41.405034,Another random paper,10.123/6,Excluded,below_threshold,[]
+2026-09-14T11:31:41.421280,Implementation of TVET in SMK,10.123/7,Excluded,exclusion_keyword_SMK,
+2026-09-14T11:31:41.428132,Kolej Vokasional: Osmkosis process in biology,10.123/8,Survived,1,['Kolej Vokasional']
+2026-09-14T12:14:55.126145,Pendidikan Vokasi di Indonesia,10.123/1,Excluded,exclusion_keyword_Indonesia,
+2026-09-14T12:14:55.140039,Pelaksanaan amali di Kolej Vokasional Malaysia,10.123/2,Survived,1,['Kolej Vokasional']
+2026-09-14T12:14:55.153745,Already in Library: Kolej Vokasional Study,10.123/3,Excluded,dedup-skipped,
+2026-09-14T12:14:55.167146,TVET Malaysia: A Comparative Study,10.123/4,Survived,1,['TVET Malaysia']
+2026-09-14T12:14:55.184668,Random Paper,10.123/5,Excluded,below_threshold,[]
+2026-09-14T12:14:55.185666,Another random paper,10.123/6,Excluded,below_threshold,[]
+2026-09-14T12:14:55.199383,Implementation of TVET in SMK,10.123/7,Excluded,exclusion_keyword_SMK,
+2026-09-14T12:14:55.201171,Kolej Vokasional: Osmkosis process in biology,10.123/8,Survived,1,['Kolej Vokasional']
+2026-09-14T12:18:15.578930,Pendidikan Vokasi di Indonesia,10.123/1,Excluded,exclusion_keyword_Indonesia,
+2026-09-14T12:18:15.598500,Pelaksanaan amali di Kolej Vokasional Malaysia,10.123/2,Survived,1,['Kolej Vokasional']
+2026-09-14T12:18:15.616958,Already in Library: Kolej Vokasional Study,10.123/3,Excluded,dedup-skipped,
+2026-09-14T12:18:15.635451,TVET Malaysia: A Comparative Study,10.123/4,Survived,1,['TVET Malaysia']
+2026-09-14T12:18:15.656761,Random Paper,10.123/5,Excluded,below_threshold,[]
+2026-09-14T12:18:15.656761,Another random paper,10.123/6,Excluded,below_threshold,[]
+2026-09-14T12:18:15.679316,Implementation of TVET in SMK,10.123/7,Excluded,exclusion_keyword_SMK,
+2026-09-14T12:18:15.687016,Kolej Vokasional: Osmkosis process in biology,10.123/8,Survived,1,['Kolej Vokasional']
+2026-09-14T22:04:15.239763,Pendidikan Vokasi di Indonesia,10.123/1,Excluded,exclusion_keyword_Indonesia,
+2026-09-14T22:04:15.260189,Pelaksanaan amali di Kolej Vokasional Malaysia,10.123/2,Survived,1,['Kolej Vokasional']
+2026-09-14T22:04:15.285137,Already in Library: Kolej Vokasional Study,10.123/3,Excluded,dedup-skipped,
+2026-09-14T22:04:15.305118,TVET Malaysia: A Comparative Study,10.123/4,Survived,1,['TVET Malaysia']
+2026-09-14T22:04:15.324160,Random Paper,10.123/5,Excluded,below_threshold,[]
+2026-09-14T22:04:15.325298,Another random paper,10.123/6,Excluded,below_threshold,[]
+2026-09-14T22:04:15.344110,Implementation of TVET in SMK,10.123/7,Excluded,exclusion_keyword_SMK,
+2026-09-14T22:04:15.347106,Kolej Vokasional: Osmkosis process in biology,10.123/8,Survived,1,['Kolej Vokasional']

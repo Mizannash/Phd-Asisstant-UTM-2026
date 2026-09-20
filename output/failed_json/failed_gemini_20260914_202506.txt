@@ -1,0 +1,6 @@
+{
+  "filename": "REJECT_Test_Submission.md",
+  "content": "# Academic Paper Evaluation\n\n## Screening Verdict\n- **Verdict:** REJECT\n- **Relevance Score:** 1/10\n- **Target Population Match (Kolej Vokasional):** No (Invalid/Placeholder text)\n- **Subject Area Match (Construction Technology):** No\n- **Focus Match (Generative AI Pedagogy):** No\n\n## Justification & Evaluation\nThe submitted paper content consists solely of placeholder text (\"test\") and provides no title, authors, abstract, methodology, or empirical findings. As a strict PhD-level TVET literature screener, this input fails to satisfy minimum academic evaluation criteria and is disqualified from the TVET Construction Technology and Generative AI knowledge base.\n\n## APA 7 Reference\n*Not applicable (Invalid/insufficient paper content provided).*\n\n## Synthesis Tags\n- `#REJECT`\n- `#InvalidSubmission`\n- `#NonAcademic`",
+  "index_entry": "- [[REJECT_Test_Submission]]: Rejected test/placeholder submission lacking academic content.",
+  "log_entry": "Rejected invalid test submission (no academic content)."
+}

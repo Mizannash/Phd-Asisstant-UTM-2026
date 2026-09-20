@@ -1,0 +1,30 @@
+queries:
+  - "TVET Kolej Vokasional Teknologi Pembinaan"
+  - "vocational college construction technology Malaysia"
+  - "TVET pedagogy Kolej Vokasional"
+  - "generative AI vocational education Malaysia"
+
+exclusions:
+  - "Indonesia"
+  - "SMK"
+  - "SMKs"
+  - "politeknik"
+  - "polytechnic"
+  - "sekolah menengah"
+  - "sekolah rendah"
+  - "primary school"
+  - "secondary school"
+
+inclusions:
+  - "Kolej Vokasional"
+  - "vocational college Malaysia"
+  - "TVET Malaysia"
+  - "BPLTV"
+  - "teknologi pembinaan"
+  - "construction technology"
+  - "vocational teacher"
+  - "AI agent education"
+  - "TPACK"
+  - "generative AI pedagogy"
+
+threshold: 1

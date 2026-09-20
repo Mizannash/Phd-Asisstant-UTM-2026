@@ -1,0 +1,153 @@
+[
+    {
+        "role": "user",
+        "content": "adakah penggunaan Ai telah diperluaskan dalam pembelajaran TVeT."
+    },
+    {
+        "role": "ai",
+        "content": "Secara ringkas dan objektif: **Di peringkat dasar dan global, ya; namun di peringkat pelaksanaan empirikal (*empirical implementation*) di Kolej Vokasional (KV) Malaysia, ia masih di peringkat awal (*embryonic/emerging stage*).**\n\nBerikut adalah pecahan realiti akademik yang perlu anda fahami sebelum membina cadangan penyelidikan (*research proposal*):\n\n---\n\n### 1. Landskap Global TVET vs Kolej Vokasional Malaysia\n\n* **Trend Global TVET**: Penggunaan AI telah mula beralih daripada sekadar alat bantu teori kepada *Intelligent Tutoring Systems (ITS)*, simulasi bengkel pintar berasaskan *computer vision* (contohnya menganalisis teknik kimpalan atau ketepatan pemasangan bata), serta *predictive analytics* untuk menilai prestasi amali pelajar.\n* **Realiti Kolej Vokasional (Malaysia)**: \n  * Dalam literatur sedia ada, integrasi teknologi di KV kebanyakannya masih tertumpu kepada multimedia interaktif, e-pembelajaran, atau *Augmented Reality (AR)* \u2014 seperti kajian pembangunan modul AR bagi kursus Pembinaan Bangunan II (2022).\n  * Penggunaan AI Generatif (seperti ChatGPT atau automasi asas) dalam kalangan pensyarah KV berlaku secara *ad-hoc* (contohnya untuk penulisan Rancangan Pengajaran Harian atau mencari bahan teori), tetapi **belum wujud integrasi kurikulum yang sistematik** bagi latihan amali (*psychomotor skills*) di bengkel KV.\n\n---\n\n### 2. Penilaian Akademik: Peluang *Novelty* vs Risiko *Feasibility*\n\nJika anda bercadang menjadikan integrasi AI dalam KV sebagai topik PhD *fast-track* anda, pertimbangkan pertukaran (*trade-offs*) berikut:\n\n| Pendekatan Metodologi | Potensi *Novelty* | Cabaran & Risiko *Feasibility* (Fast-track) |\n| :--- | :--- | :--- |\n| **Quantitative Survey** (cth: Tahap kesediaan/penerimaan pensyarah terhadap AI menggunakan *framework* TAM / UTAUT) | Sederhana. Menilai jurang adaptasi teknologi baharu. | **Risiko *Hypothetical Bias*:** Jika pensyarah KV belum menggunakan AI secara formal dalam pengajaran amali, data yang dikumpul mungkin sekadar persepsi andaian, bukan pengalaman sebenar. |\n| **Qualitative Case Study** (cth: Penerokaan cabaran & amalan pensyarah mengintegrasikan AI) | Tinggi. Mendalami isu pelaksanaan peringkat awal secara terperinci. | Memerlukan pemilihan sampel yang sangat teliti (*purposive*) untuk mencari pensyarah yang benar-benar aktif mengaplikasikan AI dalam bengkel/kelas. |\n| **Design and Development Research (DDR)** (cth: Membangunkan modul/kerangka integrasi AI untuk kursus vokasional) | Sangat Tinggi. Menghasilkan artefak/model baharu untuk KV. | **Kekangan Masa:** Pembangunan, pengesahan pakar, dan fasa penilaian (kebolehgunaan) sukar diselesaikan dalam tempoh pengumpulan data 12 bulan tanpa kemahiran teknikal sedia ada. |\n\n---\n\n### 3. Peringatan Penting Penyelidikan (UTM PhD Standard)\n\n1. **Elakkan Mengkaji AI secara Terlalu Umum**: Tajuk seperti *\"Penggunaan AI dalam TVET\"* adalah terlalu luas dan tidak mencukupi untuk standard PhD. Anda perlu mengkhususkan kepada **program/bidang spesifik di KV** (contoh: Teknologi Pembinaan, Pemesinan Industri, atau Perisian Komputer) dan dimensi pengajaran (pedagogi teori vs pentaksiran amali).\n2. **Status Kerangka Teori**: Teori seperti TAM, UTAUT, atau TPACK **sah dan wajar digunakan sebagai *methodology frameworks* di Bab 3**, tetapi anda tidak boleh bergantung kepada literatur generik luar negara untuk menjustifikasi masalah kajian (*problem statement*) di KV pada Bab 1. Anda perlukan bukti empirikal tempatan.\n\n---\n\n\ud83d\udccc Langkah Seterusnya (Next Steps):\n\n1. **Lakukan *Systematic Literature Search* (Minggu 1\u20132):** Cari sekurang-kurangnya 5\u20138 artikel jurnal terkini (2022\u20132025) berkaitan AI dalam konteks TVET Malaysia/KV bagi mengenal pasti *empirical gap* yang tepat.\n2. **Kenal Pasti Status *Baseline* di KV Sasaran (Minggu 3):** Hubungi pensyarah di KV tempat capaian anda untuk memastikan sama ada integrasi AI sudah wujud secara praktikal atau sekadar wacana.\n3. **Tetapkan Fokus Bidang & Reka Bentuk Kajian (Minggu 4):** Bincangkan bersama penyelia utama anda sama ada ingin mengkaji aspek kesediaan (*readiness/perception*), penerokaan isu pelaksanaan, atau pembangunan kerangka/modul."
+    },
+    {
+        "role": "user",
+        "content": "\"What does the literature say about quantum computing applications in Malaysian vocational education?\""
+    },
+    {
+        "role": "user",
+        "content": "masalah pembelajaran di Kolej Vokasional"
+    },
+    {
+        "role": "user",
+        "content": "masalah pembelajaran di Kolej Vokasional"
+    },
+    {
+        "role": "ai",
+        "content": "Mengenai soalan anda berkenaan aplikasi *quantum computing* dalam pendidikan vokasional di Malaysia:\n\n> **The retrieved library context does not contain information to support this.** \n\nSecara realiti akademik TVET Malaysia, *quantum computing* **tiada dalam kurikulum mahupun pelaksanaan empirikal** di peringkat Sijil Vokasional Malaysia (SVM) atau Diploma Vokasional Malaysia (DVM). Mengangkat *quantum computing* sebagai topik kajian di Kolej Vokasional (KV) adalah **tidak realistik (*infeasible*)** dan tidak mempunyai asas masalah (*problem statement*) yang sahih di peringkat KV.\n\n---\n\n### Masalah Pembelajaran Sebenar di Kolej Vokasional (KV)\n\nBerdasarkan landskap pendidikan vokasional teknikal, isu pembelajaran di KV yang tulen dan relevan untuk peringkat PhD UTM terbahagi kepada beberapa dimensi kritikal:\n\n#### 1. Jurang Kognitif vs Psikomotor (*Theory-Practice Integration Gap*)\n* Pelajar KV sering menghadapi kesukaran mengaitkan konsep teori asas (matematik/sains teknikal) dengan aplikasi amali di bengkel.\n* Masalah ini menjejaskan keupayaan mereka untuk membuat penyelesaian masalah teknikal (*troubleshooting*) yang kompleks semasa amali.\n\n#### 2. Penguasaan Kemahiran Berasaskan Standard Industri\n* Perbezaan antara peralatan di bengkel KV dengan teknologi terkini di industri menyebabkan wujudnya jurang kemahiran amali (*skills mismatch*).\n* Tahap kesediaan pelajar mengadaptasi pendigitalan bengkel dan automasi industri.\n\n#### 3. Keberkesanan Pedagogi & Pentaksiran Amali\n* Kaedah pengajaran tradisional yang masih berpusatkan pensyarah (*teacher-centered*) berbanding pembelajaran berasaskan projek (*Project-Based Learning - PjBL*) atau pembelajaran berasaskan masalah (*Problem-Based Learning - PBL*).\n* Ketidaktelusan dan variasi dalam pentaksiran kemahiran psikomotor semasa amali bengkel.\n\n---\n\n### Perbandingan Pendekatan Metodologi untuk Mengkaji Masalah Pembelajaran di KV\n\n| Pendekatan Metodologi | Fokus Kajian | Cabaran & Pertukaran (*Trade-offs*) Fast-Track |\n| :--- | :--- | :--- |\n| **Kuantitatif (Survey)** | Mengukur tahap masalah/faktor yang mempengaruhi pencapaian amali pelajar merentas program atau KV. | Memerlukan instrumen yang divalidasi rapi; pensampelan perlu mencapai 100\u2013300 responden merentas 3\u20135 KV. |\n| **Kualitatif (Case Study)** | Meneroka secara mendalam bagaimana pelajar/pensyarah menangani kesukaran pembelajaran dalam kursus spesifik (cth: Kimpalan / Pemesinan). | Memerlukan masa temu bual dan pemerhatian bengkel yang teliti (10\u201315 responden); analisis tematik memerlukan ketelitian tinggi. |\n| **Design and Development Research (DDR)** | Membangunkan modul intervensi/kerangka pengajaran untuk mengatasi masalah pembelajaran spesifik. | Perlu mengurus fasa analisis, reka bentuk, pembangunan, dan penilaian pakar dalam tempoh pengumpulan data 12 bulan. |\n\n*Peringatan: Keputusan akhir mengenai topik, fokus bidang kursus di KV, dan reka bentuk kajian adalah di bawah pertimbangan anda bersama penyelia utama.*\n\n---\n\n\ud83d\udccc Langkah Seterusnya (Next Steps):\n\n1. **Pilih Satu Program/Kursus Spesifik di KV (Minggu 1):** Tentukan bidang fokus yang jelas (contohnya: Teknologi Pembinaan, Teknologi Automotif, atau Pemesinan Industri) di mana isu pembelajaran amali benar-benar wujud.\n2. **Kumpul Bukti Awal Isu Pembelajaran (Minggu 2):** Lakukan tinjauan awal ringkas atau semakan laporan peperiksaan/penilaian amali di KV tempat capaian anda untuk mengenal pasti kursus dengan kadar kegagalan atau kesukaran tertinggi.\n3. **Sintesis Sorotan Literatur Berkaitan (Minggu 3\u20134):** Cari artikel jurnal empirikal berkaitan intervensi pengajaran dan cabaran pembelajaran dalam bidang teknikal tersebut bagi membina *Problem Statement* Bab 1 yang kukuh.",
+        "sources": [
+            "Paper_3.md",
+            "Paper_2.md",
+            "Paper_4.md",
+            "Paper_8.md",
+            "Paper_0.md"
+        ]
+    },
+    {
+        "role": "user",
+        "content": "\"What does the literature say about quantum computing applications in Malaysian vocational education?"
+    },
+    {
+        "role": "ai",
+        "content": "The retrieved library context does not contain information to support this.\n\nFrom an academic and practical standpoint within Malaysian TVET and Kolej Vokasional (KV):\n\n### Academic Assessment: Feasibility and Curriculum Alignment\n\n1. **Curriculum Alignment**: Quantum computing is **not part of the curriculum** for either the *Sijil Vokasional Malaysia* (SVM) or *Diploma Vokasional Malaysia* (DVM) levels. KV programs focus on technical, psychomotor, and vocational skills aligned with industry standards (e.g., Industrial Machining, Construction Technology, Electrical/Electronic Technology, Automotive, and Information Technology support).\n2. **Problem Statement Feasibility**: Proposing quantum computing applications in Malaysian vocational education for a PhD thesis will face severe pushback during proposal defense (*cadangan penyelidikan*) because there is no empirical evidence, institutional readiness, or baseline curriculum at the KV level to support such a problem statement.\n3. **Alternative Focus (Emerging Technologies in KV)**: If your interest is in advanced technologies in TVET, literature in the Malaysian KV context focuses on:\n   - Industry 4.0 applications (e.g., IoT, robotics, CNC automation).\n   - Digital pedagogical tools (e.g., Augmented Reality, Virtual Simulation, e-learning platforms).\n   - Technical competency and readiness of lecturers and students in handling modern workshop technologies.\n\n---\n\n\ud83d\udccc Langkah Seterusnya (Next Steps):\n\n1. **Realign Research Focus to Actual KV Offerings (Week 1):** Review the official standard curriculum for vocational colleges (KSKV) to identify real technological integration gaps relevant to existing programs.\n2. **Conduct a Preliminary Database Search (Week 2):** Search indexed databases (Scopus/WoS/MyJurnal) using keywords such as `\"TVET\" AND \"Malaysia\" AND (\"IR4.0\" OR \"digital technology\" OR \"vocational education\")` to find viable empirical topics.\n3. **Consult with Human Supervisor (Week 3):** Present 2\u20133 practical technological domains (e.g., AR/VR simulations, automation, or blended learning in workshops) to agree on a feasible research direction for your fast-track timeline.",
+        "sources": []
+    },
+    {
+        "role": "user",
+        "content": "\"What does the literature say about quantum computing applications in Malaysian vocational education?\""
+    },
+    {
+        "role": "ai",
+        "content": "The retrieved library context does not contain information to support this.\n\nFrom a TVET academic and doctoral evaluation standpoint at UTM, here is a critical assessment of why this topic is currently unviable for a PhD in Malaysian vocational education:\n\n---\n\n### 1. Curricular and Institutional Mismatch\n\n* **Curricular Scope**: Kolej Vokasional (KV) curricula\u2014specifically the *Standard Kurikulum Kolej Vokasional* (KSKV) for *Sijil Vokasional Malaysia* (SVM) and *Diploma Vokasional Malaysia* (DVM)\u2014are structured around operational, technical, and psychomotor skills aligned with industry standards (e.g., Industrial Machining, Automotive Technology, Electrical Engineering, and Computer Systems Support).\n* **Technological Disconnect**: Quantum computing represents an advanced, highly specialized subfield of computer science and theoretical physics, typically situated at postgraduate or advanced university research levels. It is not taught, utilized, or planned for implementation in Malaysian KV institutions.\n* **Vulnerability in Proposal Defense**: Without an institutional baseline or curricular mandate, you cannot construct a defensible Problem Statement (Bab 1) for a Kolej Vokasional study. Examiners will challenge the empirical ground of the study immediately.\n\n---\n\n### 2. Methodological Trade-Offs for Feasible Technology Studies in KV\n\nIf your research interest lies in advanced or emerging digital technologies in Kolej Vokasional, consider realistic alternatives (e.g., IR 4.0 integration, IoT, Augmented Reality, or digital workshop simulations):\n\n| Research Design | Focus / Application | Trade-offs & Fast-Track Feasibility |\n| :--- | :--- | :--- |\n| **Quantitative Survey** | Assessing lecturer/student readiness or acceptance of emerging tools (e.g., using TAM/UTAUT as Bab 3 framework). | **Feasible within 12 months:** Straightforward data collection across 3\u20135 KVs (100\u2013300 respondents), but requires verified existing tools to avoid hypothetical bias. |\n| **Qualitative Case Study** | In-depth exploration of instructional challenges in implementing digital/automated tools in workshops. | **Feasible with strong access:** Requires 10\u201315 purposive interviews and observations. Deep thematic insight, but examiner scrutiny on transferability. |\n| **Design and Development Research (DDR)** | Designing and validating a digital instructional module or framework for a specific KV program. | **High novelty, tight timeline:** Involves need analysis, development, expert consensus (e.g., Fuzzy Delphi), and usability testing. Demanding for a fast-track timeline. |\n\n*Note: The final topic and methodological direction must always be decided collaboratively between you and your main human supervisor.*\n\n---\n\n\ud83d\udccc Langkah Seterusnya (Next Steps):\n\n1. **Realign with the KSKV Curriculum (Weeks 1\u20132):** Review existing KV course syllabi (e.g., Computer Systems, Mechatronics, or Electronic Technology) to identify legitimate technological gaps currently faced by instructors.\n2. **Execute a Targeted Literature Search (Weeks 2\u20133):** Search Scopus/WoS and MyJurnal for empirical papers on IR 4.0, digital simulation, or e-learning integration specifically within Malaysian TVET/KV (2020\u20132025).\n3. **Formulate 2\u20133 Grounded Problem Statements (Week 4):** Draft brief issue outlines based on verified KV workshop/classroom challenges to review with your main supervisor.",
+        "sources": []
+    },
+    {
+        "role": "user",
+        "content": "masalah pembelajaran di Kolej Vokasional"
+    },
+    {
+        "role": "ai",
+        "content": "The retrieved library context does not contain information to support this. Try rephrasing your question toward the papers in your library, or run the Literature Map Verifier to identify gaps.",
+        "sources": []
+    },
+    {
+        "role": "user",
+        "content": "masalah pembelajaran di Kolej Vokasional"
+    },
+    {
+        "role": "ai",
+        "content": "The retrieved library context does not contain information to support this. Try rephrasing your question toward the papers in your library, or run the Literature Map Verifier to identify gaps.",
+        "sources": []
+    },
+    {
+        "role": "user",
+        "content": "masalah pembelajaran di Kolej Vokasional"
+    },
+    {
+        "role": "ai",
+        "content": "The retrieved library context does not contain information to support this. Try rephrasing your question toward the papers in your library, or run the Literature Map Verifier to identify gaps.",
+        "sources": []
+    },
+    {
+        "role": "user",
+        "content": "masalah pembelajaran di Kolej Vokasional"
+    },
+    {
+        "role": "user",
+        "content": "masalah pembelajaran di Kolej Vokasional"
+    },
+    {
+        "role": "ai",
+        "content": "The retrieved library context does not contain information to support this. Try rephrasing your question toward the papers in your library, or run the Literature Map Verifier to identify gaps.",
+        "sources": []
+    },
+    {
+        "role": "user",
+        "content": "HAI"
+    },
+    {
+        "role": "ai",
+        "content": "Hai. Sebagai *co-supervisor* anda, saya sedia membantu anda memperhalusi dan membina cadangan penyelidikan (*research proposal*) PhD anda agar menepati standard akademik UTM, mempunyai *novelty* yang kukuh, serta realistik (*feasible*) dengan kekangan masa *fast-track*.\n\nSila kongsikan fokus atau isu yang ingin anda bincangkan hari ini:\n* Adakah anda ingin memperincikan bidang/program spesifik di Kolej Vokasional (KV)?\n* Membina penyataan masalah (*problem statement*) Bab 1?\n* Membincangkan pemilihan kerangka metodologi Bab 3 (*Quantitative Survey*, *Qualitative Case Study*, atau *Design and Development Research - DDR*)?\n\n---\n\n\ud83d\udccc Langkah Seterusnya (Next Steps):\n\n1. **Tentukan Domain/Program KV (Hari 1\u20132):** Nyatakan program teknikal spesifik di KV yang ingin anda kaji (contohnya: Teknologi Pembinaan, Pemesinan Industri, Teknologi Automotif, dll.).\n2. **Kongsikan Draf Idea Penyelidikan (Hari 3\u20134):** Kemukakan objektif ringkas atau isu utama yang telah anda bincangkan bersama penyelia utama anda.\n3. **Analisis Kebolehlaksanaan (*Feasibility Check*) (Hari 5):** Kita akan menilai bersama instrumen, sampel sasaran (3\u20135 KV), dan garis masa pengumpulan data (maksimum 12 bulan).",
+        "sources": [
+            "Paper_0.md",
+            "Paper_6.md",
+            "Paper_9.md",
+            "Paper_1.md",
+            "Paper_8.md"
+        ]
+    },
+    {
+        "role": "user",
+        "content": "masalah pembelajaran di Kolej Vokasional"
+    },
+    {
+        "role": "user",
+        "content": "masalah pembelajaran di Kolej Vokasional"
+    },
+    {
+        "role": "user",
+        "content": "masalah pembelajaran di Kolej Vokasional"
+    },
+    {
+        "role": "ai",
+        "content": "The retrieved library context does not contain information to support this. Try rephrasing your question toward the papers in your library, or run the Literature Map Verifier to identify gaps.",
+        "sources": []
+    },
+    {
+        "role": "user",
+        "content": "masalah pembelajaran di Kolej Vokasional"
+    },
+    {
+        "role": "ai",
+        "content": "The retrieved library context does not contain information to support this. Try rephrasing your question toward the papers in your library, or run the Literature Map Verifier to identify gaps.",
+        "sources": []
+    },
+    {
+        "role": "user",
+        "content": "masalah pembelajaran di Kolej Vokasional"
+    },
+    {
+        "role": "user",
+        "content": "masalah pembelajaran di Kolej Vokasional"
+    },
+    {
+        "role": "user",
+        "content": "masalah pembelajaran di Kolej Vokasional"
+    },
+    {
+        "role": "user",
+        "content": "masalah pembelajaran di Kolej Vokasional"
+    },
+    {
+        "role": "ai",
+        "content": "The retrieved library context does not contain information to support this. Try rephrasing your question toward the papers in your library, or run the Literature Map Verifier to identify gaps.",
+        "sources": []
+    }
+]

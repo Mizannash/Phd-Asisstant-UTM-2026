@@ -1,0 +1,50 @@
+comprehensive_review_task:
+  description: >
+    Review the provided academic paper, abstract, or search results against the PhD research criteria. Evaluate its relevance to Kolej Vokasional populations, construction technology, and Generative AI pedagogy. 
+    You must simultaneously extract and format the findings if the paper is not rejected.
+    Note that TAM/UTAUT studies should be flagged as methodology references.
+    Compare findings to the existing library database provided here:
+    {library_context}
+    
+    Paper Content: {paper_text}
+  expected_output: >
+    MUST be a strict, valid JSON string containing exactly four keys:
+    - `filename`: A smart, action-oriented filename ending in .md (e.g., `Paper_GenAI_Pedagogy_2026.md`).
+    - `content`: The markdown content containing the Verdict (RELEVANT/REJECT), Score (1-10), APA 7 Reference, extracted quotes, and Synthesis tags. (Note: Also output "CRITICAL_NOVELTY_THREAT" in the content if it's a Malaysian study between 2020-2026 >80% similar to integrating Generative AI in TVET Construction Technology).
+    - `index_entry`: A one-line summary with a wiki-link to append to `index.md`.
+    - `log_entry`: A one-line action record (e.g., "Ingested new paper on AI amali") to append to `log.md`.
+    DO NOT wrap the output in markdown code blocks like ```json ... ```. Output raw JSON only.
+  agent: systematic_reviewer
+
+scout_task:
+  description: >
+    Use the Search Tools to find at least 3 recent academic papers related to "TVET Kolej Vokasional Teknologi Pembinaan".
+    Pass the raw markdown results from the search tool to the domain expert for filtering.
+  expected_output: >
+    A list of raw academic paper search results, including title, authors, year, and DOI.
+  agent: literature_scout
+
+filter_task:
+  description: >
+    Analyze the raw search results provided by the scout. Filter out any papers that mention Indonesian TVET, polytechnics, or school-level RBT (Reka Bentuk dan Teknologi).
+    For the remaining relevant papers (Malaysian Kolej Vokasional focused), format the output strictly as a JSON object containing a "papers" array. Each paper should have "title", "authors", "year", "abstract" (if available, otherwise describe its potential relevance, including TAM/UTAUT methodology tags), and "relevance_score" (1-10).
+  expected_output: >
+    A valid JSON string matching the specified schema. DO NOT wrap the output in markdown code blocks like ```json ... ```. Output raw JSON only.
+  agent: tvet_domain_expert
+
+groq_scout_task:
+  description: >
+    Analyze the following pre-filtered academic papers:
+    {filtered_papers}
+    Pass the raw markdown results of these papers to the domain expert for filtering.
+  expected_output: >
+    A list of raw academic paper search results, including title, authors, year, and DOI.
+  agent: groq_literature_scout
+
+groq_filter_task:
+  description: >
+    Analyze the raw search results provided by the scout. Filter out any papers that mention Indonesian TVET, polytechnics, or school-level RBT (Reka Bentuk dan Teknologi).
+    For the remaining relevant papers (Malaysian Kolej Vokasional focused), format the output strictly as a JSON object containing a "papers" array. Each paper should have "title", "authors", "year", "abstract", and "relevance_score" (1-10).
+  expected_output: >
+    A valid JSON string matching the specified schema. DO NOT wrap the output in markdown code blocks like ```json ... ```. Output raw JSON only.
+  agent: groq_tvet_domain_expert

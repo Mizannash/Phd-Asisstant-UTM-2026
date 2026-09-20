@@ -1,0 +1,8 @@
+daily_limits:
+  gemini: 80
+  groq_soft: 200
+  groq_hard: 400
+estimates:
+  single_paper: 5
+  promote: 5
+  scout_run: 3

@@ -1,0 +1,70 @@
+[2026-09-04T02:03:07] Scout started.
+[2026-09-04T02:04:04] Scout started.
+[2026-09-04T02:05:28] Scout started.
+[2026-09-04T02:06:04] Scout started.
+[2026-09-04T02:06:27] Scout complete. Found 1 new papers. Used Key 1.
+[2026-09-04T02:12:55] Scout started.
+[2026-09-04T02:12:55] Scout complete. Found 0 new papers. Used Key 1.
+[2026-09-04T02:23:02] Scout started.
+[2026-09-04T02:25:07] Scout crashed with error: 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'Requests ending with a model turn are not supported.', 'status': 'INVALID_ARGUMENT'}}
+[2026-09-04T02:25:59] Scout started.
+[2026-09-04T02:29:56] Scout crashed with error: 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'Requests ending with a model turn are not supported.', 'status': 'INVALID_ARGUMENT'}}
+[2026-09-04T02:41:16] Scout started.
+[2026-09-04T02:49:15] Scout started.
+[2026-09-04T02:49:30] 503 persisted — scout aborted, will retry on next schedule
+[2026-09-04T02:49:30] Scout started.
+[2026-09-04T02:49:37] Scout crashed with error: ALL API KEYS EXHAUSTED.
+Key 1: Daily Quota limit
+[2026-09-14T11:23:12] Scout started.
+[2026-09-14T11:23:14] Scout complete. Found 1 new papers. Used Key 1.
+[2026-09-14T11:31:17] Scout started.
+[2026-09-14T11:31:18] Scout complete. Found 1 new papers. Used Key 1.
+[2026-09-14T11:31:38] Scout started.
+[2026-09-14T11:55:43] Scout started.
+[2026-09-14T11:55:43] Scout crashed with error: No module named 'crewai.llms.providers.gemini'
+[2026-09-14T12:09:37] Scout started.
+[2026-09-14T12:09:37] Scout crashed with error: No module named 'crewai.llms.providers.gemini'
+[2026-09-14T12:14:30] Scout started.
+[2026-09-14T12:14:31] Scout complete. Found 1 new papers. Used Key 1.
+[2026-09-14T12:14:53] Scout started.
+[2026-09-14T12:16:16] Scout started.
+[2026-09-14T12:16:18] Scout complete. Found 1 new papers. Used Key 1.
+[2026-09-14T12:16:25] Scout started.
+[2026-09-14T12:17:25] Scout started.
+[2026-09-14T12:17:33] Scout crashed with error: litellm.AuthenticationError: geminiException - {
+  "error": {
+    "code": 400,
+    "message": "API key not valid. Please pass a valid API key.",
+    "status": "INVALID_ARGUMENT",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "API_KEY_INVALID",
+        "domain": "googleapis.com",
+        "metadata": {
+          "service": "generativelanguage.googleapis.com"
+        }
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.LocalizedMessage",
+        "locale": "en-US",
+        "message": "API key not valid. Please pass a valid API key."
+      }
+    ]
+  }
+}
+
+[2026-09-14T12:17:48] Scout started.
+[2026-09-14T12:17:49] Scout complete. Found 1 new papers. Used Key 1.
+[2026-09-14T12:18:13] Scout started.
+[2026-09-14T21:53:28] Scout started.
+[2026-09-14T21:53:28] Scout complete. Found 1 new papers. Used Key 1.
+[2026-09-14T22:03:44] Scout started.
+[2026-09-14T22:03:45] Scout complete. Found 1 new papers. Used Key 1.
+[2026-09-14T22:04:12] Scout started.
+[2026-09-14T23:08:10] Scout started.
+[2026-09-14T23:08:11] Scout complete. Found 1 new papers. Used Key 1.
+[2026-09-14T23:08:33] Scout started.
+[2026-09-16T02:30:43] Scout started.
+[2026-09-16T02:30:43] Scout complete. Found 1 new papers. Used Key 1.
+[2026-09-16T02:31:04] Scout started.

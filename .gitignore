@@ -1,0 +1,6 @@
+.env
+venv/
+__pycache__/
+*.log
+output/analytics/*
+!output/analytics/actual_calls.csv
