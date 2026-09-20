@@ -1,4 +1,0 @@
-Timestamp,Pipeline,Model,TotalTokens,PromptTokens,CompletionTokens
-2026-09-14T21:51:06.357873,test_pipeline,unknown,0,0,0
-2026-09-14T21:52:40.744637,chatbot,unknown,0,0,0
-2026-09-14T21:59:46.305942,chatbot,unknown,0,0,0
