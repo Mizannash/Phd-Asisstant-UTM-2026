@@ -163,6 +163,27 @@ def main():
         page_icon="🎓"
     )
 
+    # --- Authentication Layer ---
+    # Change "utm2026" to your desired default password, or set APP_PASSWORD in .env
+    expected_password = os.getenv("APP_PASSWORD", "utm2026")
+    
+    if "authenticated" not in st.session_state:
+        st.session_state.authenticated = False
+
+    if not st.session_state.authenticated:
+        st.title("🔒 Access Restricted")
+        st.markdown("Please enter the system password to access the PhD Assistant UTM Command Center.")
+        
+        pwd = st.text_input("Password", type="password")
+        if st.button("Login", type="primary"):
+            if pwd == expected_password:
+                st.session_state.authenticated = True
+                st.rerun()
+            else:
+                st.error("Incorrect password.")
+        st.stop()
+    # ----------------------------
+
     # Hot-reload .env so users don't have to restart Streamlit when changing keys
     from dotenv import load_dotenv
     env_path = os.path.join(os.path.dirname(os.path.dirname(__file__)), ".env")
