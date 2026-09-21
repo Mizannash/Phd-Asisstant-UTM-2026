@@ -25,11 +25,7 @@ class LibraryState:
         with open(self.state_file, 'w', encoding='utf-8') as f:
             json.dump(self.state, f, indent=4)
         
-        try:
-            from src.core.storage import StorageHandler
-            StorageHandler.push_state("Update data/library_state.json")
-        except Exception as e:
-            print(f"Failed to push state: {e}")
+        # Removed StorageHandler.push_state to prevent Streamlit Cloud from restarting the app.
 
     def migrate_from_backup(self):
         if not os.path.exists(BACKUP_LIBRARY_FILE):

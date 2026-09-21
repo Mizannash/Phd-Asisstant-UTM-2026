@@ -100,11 +100,7 @@ class BudgetManager:
                 data["groq_used"] = data.get("groq_used", 0) + n
             self._write_budget(data)
             
-            try:
-                from src.core.storage import StorageHandler
-                StorageHandler.push_state("Quota change updated")
-            except Exception as e:
-                print(f"Failed to push quota state: {e}")
+            # Removed StorageHandler.push_state to prevent Streamlit Cloud from restarting the app.
 
     def remaining(self) -> dict:
         with FileLock(self.lock_path, timeout=5):
