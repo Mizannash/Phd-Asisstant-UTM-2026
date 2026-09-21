@@ -8,3 +8,13 @@ output/analytics/*
 output/chroma_db/
 data/cache/
 output/failed_json/
+
+# Privacy: ignore research data
+output/chat_history/
+output/Obsidian_Vault/
+output/backups/
+output/reports/
+output/*.json
+output/*.md
+output/*.txt
+papers_dump.txt
