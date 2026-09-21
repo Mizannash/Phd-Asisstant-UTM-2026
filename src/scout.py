@@ -14,8 +14,10 @@ except AttributeError:
     sys.stderr = io.TextIOWrapper(sys.stderr.buffer, encoding='utf-8', errors='replace')
 
 # Ensure we're in the right directory and load env
-sys.path.insert(0, os.path.dirname(__file__))
-load_dotenv(os.path.join(os.path.dirname(os.path.dirname(__file__)), ".env"))
+project_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+if project_root not in sys.path:
+    sys.path.insert(0, project_root)
+load_dotenv(os.path.join(project_root, ".env"))
 
 from crewai import Agent, Task, Crew, Process
 from src.tools.search_tools import openalex_search_tool
@@ -253,11 +255,11 @@ def run_scout_pipeline(on_rate_limit_callback=None, force_run=False):
             except json.JSONDecodeError:
                 print("Warning: existing library.json is corrupted. Starting fresh.")
 
-        from library_manager import safe_write_library
-        from logger import log_event
+        from src.db.library import LibraryDB
+        from src.logger import log_event
         import sys
         sys.path.append(os.path.dirname(__file__))
-        from threat_detector import check_novelty_threat
+        from src.threat_detector import check_novelty_threat
         
         # Create a set of existing lowercase titles for deduplication
         existing_titles = {p.get("title", "").strip().lower() for p in existing_data.get("papers", [])}
@@ -277,7 +279,12 @@ def run_scout_pipeline(on_rate_limit_callback=None, force_run=False):
         today_str = datetime.now().strftime("%Y-%m-%d")
         existing_data["last_scout_date"] = today_str
 
-        success = safe_write_library(existing_data)
+        success = False
+        try:
+            LibraryDB()._write_atomic(existing_data, output_file)
+            success = True
+        except Exception as e:
+            print(f"Error writing to library: {e}")
         if success:
             if len(new_data.get('papers', [])) > 0 and newly_added_count == 0:
                 print(f"No new papers found - all {len(new_data.get('papers', []))} candidates are duplicates/already analyzed")
