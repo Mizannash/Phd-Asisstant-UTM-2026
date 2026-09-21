@@ -161,9 +161,11 @@ Current Stage: {research_ctx.get('current_stage', 'Not defined')}
 
 2. **FAST-TRACK PHD MENTOR MODE**: You are a roadmap mentor. Give concrete, sequential "do this now" advice. At the very end of EVERY substantive reply, add a short section titled exactly "📌 Langkah Seterusnya (Next Steps):" followed by 1) ... 2) ... 3) ... with realistic timeframes.
 
-3. **EXPLICIT CITING (MANDATORY)**: Answer ONLY using the provided retrieved context. You MUST cite which paper notes support each claim (e.g. 'According to Source 1...'). If the retrieved context does not contain enough information to answer the question, state explicitly: 'The retrieved library context does not contain information to support this.' Do not generalize from your training data.
+3. **EVALUATION & ADVICE**: If the user proposes a thesis title, methodology, or asks for general academic advice, you should act as an exacting PhD supervisor. Critique their ideas, suggest improvements, and leverage your general academic knowledge. 
 
-4. **DEBATE MODE & CONTEXT UPDATES**: If the user proposes a design change (like expanding the sample), you must propose an update to the Research Context Registry by outputting a JSON block EXACTLY in this format:
+4. **LITERATURE GROUNDING**: When the user specifically asks about the literature, previous studies, or gaps, you MUST base your answer on the retrieved library context and cite it (e.g. 'According to Source 1...'). If the context doesn't have the specific literature they are asking about, you can suggest what kind of literature they should look for, but do not hallucinate citations.
+
+5. **DEBATE MODE & CONTEXT UPDATES**: If the user proposes a design change (like expanding the sample), you must propose an update to the Research Context Registry by outputting a JSON block EXACTLY in this format:
 ```json
 {{
   "proposed_research_context": {{
@@ -173,8 +175,6 @@ Current Stage: {research_ctx.get('current_stage', 'Not defined')}
 }}
 ```
 Only include the fields that are changing. Do not output this JSON unless a change is actually being proposed or finalized.
-
-5. **STRICT REFUSAL DISCIPLINE**: When the retrieved library context does not contain information to answer a question, your ENTIRE response must be the refusal statement plus at most one short sentence suggesting what literature would be needed. You MUST NOT: (a) answer from your general knowledge, (b) make claims about curricula, institutions, or policies, (c) offer 'academic assessments' or feasibility opinions, or (d) provide any elaboration after the refusal. A refusal is a full stop, not a preamble. General knowledge answers presented after a refusal are a violation of your core function as a research instrument.
 """
 
     # 4. Build the prompt template
@@ -215,44 +215,7 @@ Only include the fields that are changing. Do not output this JSON unless a chan
         if response_text is None:
             return "The AI service returned an empty response (possibly rate limiting). Please try again in a moment.", []
     
-    # 5. Structural Refusal Guard
-    REFUSAL_PHRASES = [
-        "does not contain information to support this",
-        "does not contain sufficient information",
-    ]
-    
-    first_200 = response_text[:200].lower()
-    if any(phrase in first_200 for phrase in REFUSAL_PHRASES):
-        discarded = response_text
-        response_text = "The retrieved library context does not contain information to support this. Try rephrasing your question toward the papers in your library, or run the Literature Map Verifier to identify gaps."
-        sources_list = []
-        
-        try:
-            import csv
-            import datetime
-            import os
-            
-            analytics_dir = os.path.join(os.path.dirname(os.path.dirname(__file__)), "output", "analytics")
-            os.makedirs(analytics_dir, exist_ok=True)
-            csv_path = os.path.join(analytics_dir, "refusal_overruns.csv")
-            
-            def append_row():
-                file_exists = os.path.exists(csv_path)
-                with open(csv_path, "a", newline="", encoding="utf-8") as f:
-                    writer = csv.writer(f)
-                    if not file_exists:
-                        writer.writerow(["timestamp", "question", "discarded_response"])
-                    writer.writerow([datetime.datetime.now().isoformat(), user_input, discarded])
-                    
-            try:
-                from filelock import FileLock
-                with FileLock(csv_path + ".lock", timeout=5):
-                    append_row()
-            except ImportError:
-                append_row()
-                
-        except Exception as e:
-            print(f"Warning: Failed to log refusal overrun: {e}")
+    # The structural refusal guard has been removed to allow the LLM to give advice on titles even if they aren't in the library.
 
     return response_text, list(set(sources_list))
 
