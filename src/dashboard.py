@@ -164,8 +164,8 @@ def main():
     )
 
     # --- Authentication Layer ---
-    # Change "utm2026" to your desired default password, or set APP_PASSWORD in .env
-    expected_password = os.getenv("APP_PASSWORD", "utm2026")
+    # Change "hamizan00" to your desired default password, or set APP_PASSWORD in .env
+    expected_password = os.getenv("APP_PASSWORD", "hamizan00")
     
     if "authenticated" not in st.session_state:
         st.session_state.authenticated = False
