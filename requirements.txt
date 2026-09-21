@@ -801,5 +801,4 @@ zipp==4.1.0
     # via importlib-metadata
 zstandard==0.25.0
     # via langsmith
-s u p a b a s e > = 2 . 3 . 0  
- 
+supabase>=2.3.0
