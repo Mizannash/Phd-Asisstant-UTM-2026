@@ -787,7 +787,7 @@ watchfiles==1.2.0
     # via uvicorn
 websocket-client==1.9.2
     # via kubernetes
-websockets==16.1.1
+websockets>=14.0,<16
     # via
     #   google-genai
     #   langsmith
