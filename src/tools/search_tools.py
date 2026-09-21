@@ -9,7 +9,11 @@ def fetch_openalex(query: str, limit: int = 5) -> list[dict]:
     Returns a list of dictionaries with raw data.
     """
     from src.core.config import get_secret
-    mailto = get_secret("OPENALEX_MAILTO")
+    try:
+        mailto = get_secret("OPENALEX_MAILTO")
+    except ValueError:
+        mailto = "support@example.com"  # Fallback mailto
+        
     headers = {}
     if mailto:
         headers["User-Agent"] = f"mailto:{mailto}"

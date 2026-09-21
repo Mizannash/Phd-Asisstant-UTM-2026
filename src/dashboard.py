@@ -23,12 +23,19 @@ def get_system_analytics():
     return SystemAnalytics()
 
 import io
+import io
 try:
-    sys.stdout.reconfigure(encoding='utf-8')
-    sys.stderr.reconfigure(encoding='utf-8')
-except AttributeError:
-    sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
-    sys.stderr = io.TextIOWrapper(sys.stderr.buffer, encoding='utf-8')
+    if hasattr(sys.stdout, 'reconfigure'):
+        sys.stdout.reconfigure(encoding='utf-8')
+    elif hasattr(sys.stdout, 'buffer'):
+        sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
+        
+    if hasattr(sys.stderr, 'reconfigure'):
+        sys.stderr.reconfigure(encoding='utf-8')
+    elif hasattr(sys.stderr, 'buffer'):
+        sys.stderr = io.TextIOWrapper(sys.stderr.buffer, encoding='utf-8')
+except Exception:
+    pass
 import json
 import pandas as pd
 import requests
