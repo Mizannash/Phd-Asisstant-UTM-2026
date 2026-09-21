@@ -3,6 +3,18 @@ import json
 import datetime
 import glob
 
+try:
+    from supabase import create_client, Client
+    from dotenv import load_dotenv
+    load_dotenv()
+    supa_url = os.environ.get("SUPABASE_URL")
+    supa_key = os.environ.get("SUPABASE_KEY")
+    supabase: Client = None
+    if supa_url and supa_key:
+        supabase = create_client(supa_url, supa_key)
+except ImportError:
+    supabase = None
+
 BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 OUTPUT_DIR = os.path.join(BASE_DIR, "output")
 CHAT_HISTORY_DIR = os.path.join(OUTPUT_DIR, "chat_history")
@@ -12,6 +24,14 @@ RESEARCH_CHANGELOG_FILE = os.path.join(OUTPUT_DIR, "research_context_changelog.j
 os.makedirs(CHAT_HISTORY_DIR, exist_ok=True)
 
 def load_research_context():
+    if supabase:
+        try:
+            response = supabase.table("json_store").select("data").eq("id", "research_context").execute()
+            if response.data and len(response.data) > 0:
+                return response.data[0]["data"]
+        except Exception as e:
+            print(f"Supabase read error (falling back to local): {e}")
+
     if not os.path.exists(RESEARCH_CONTEXT_FILE):
         return {
             "sample_scope": "",
@@ -25,12 +45,27 @@ def load_research_context():
         return json.load(f)
 
 def save_research_context(context_dict):
+    if supabase:
+        try:
+            supabase.table("json_store").upsert({"id": "research_context", "data": context_dict}).execute()
+        except Exception as e:
+            print(f"Supabase write error: {e}")
+
     with open(RESEARCH_CONTEXT_FILE, "w", encoding="utf-8") as f:
         json.dump(context_dict, f, indent=4)
 
 def append_to_changelog(old_context, new_context):
     changelog = []
-    if os.path.exists(RESEARCH_CHANGELOG_FILE):
+    
+    if supabase:
+        try:
+            response = supabase.table("json_store").select("data").eq("id", "research_changelog").execute()
+            if response.data and len(response.data) > 0:
+                changelog = response.data[0]["data"]
+        except Exception:
+            pass
+
+    if not changelog and os.path.exists(RESEARCH_CHANGELOG_FILE):
         with open(RESEARCH_CHANGELOG_FILE, "r", encoding="utf-8") as f:
             try:
                 changelog = json.load(f)
@@ -42,6 +77,13 @@ def append_to_changelog(old_context, new_context):
         "new": new_context
     }
     changelog.append(entry)
+    
+    if supabase:
+        try:
+            supabase.table("json_store").upsert({"id": "research_changelog", "data": changelog}).execute()
+        except Exception:
+            pass
+
     with open(RESEARCH_CHANGELOG_FILE, "w", encoding="utf-8") as f:
         json.dump(changelog, f, indent=4)
 
@@ -50,6 +92,20 @@ def get_today_chat_file():
     return os.path.join(CHAT_HISTORY_DIR, f"session_{today_str}.json")
 
 def load_recent_chat_history(limit=30):
+    messages = []
+    if supabase:
+        try:
+            response = supabase.table("json_store").select("id, data").like("id", "chat_history_%").execute()
+            if response.data:
+                sorted_records = sorted(response.data, key=lambda x: x['id'], reverse=True)
+                for record in sorted_records:
+                    if len(messages) >= limit:
+                        break
+                    messages = record["data"] + messages
+                return messages[-limit:]
+        except Exception as e:
+            print(f"Supabase read error (falling back to local): {e}")
+
     files = glob.glob(os.path.join(CHAT_HISTORY_DIR, "session_*.json"))
     files.sort(reverse=True) # newest first
     
@@ -68,6 +124,13 @@ def load_recent_chat_history(limit=30):
     return messages[-limit:] # return strictly up to the limit
 
 def save_chat_history(messages):
+    today_str = datetime.datetime.now().strftime("%Y-%m-%d")
+    if supabase:
+        try:
+            supabase.table("json_store").upsert({"id": f"chat_history_{today_str}", "data": messages}).execute()
+        except Exception as e:
+            print(f"Supabase write error: {e}")
+
     file_path = get_today_chat_file()
     # Read existing messages from today, or start fresh
     existing_messages = []

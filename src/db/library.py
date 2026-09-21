@@ -9,6 +9,18 @@ import re
 from filelock import FileLock
 from rapidfuzz import fuzz
 
+try:
+    from supabase import create_client, Client
+    from dotenv import load_dotenv
+    load_dotenv()
+    supa_url = os.environ.get("SUPABASE_URL")
+    supa_key = os.environ.get("SUPABASE_KEY")
+    supabase: Client = None
+    if supa_url and supa_key:
+        supabase = create_client(supa_url, supa_key)
+except ImportError:
+    supabase = None
+
 def _normalize_text(text: str) -> str:
     if not text:
         return ""
@@ -28,6 +40,14 @@ class LibraryDB:
         os.makedirs(self.backups_dir, exist_ok=True)
 
     def _read(self) -> dict:
+        if supabase:
+            try:
+                response = supabase.table("json_store").select("data").eq("id", "library").execute()
+                if response.data and len(response.data) > 0:
+                    return response.data[0]["data"]
+            except Exception as e:
+                print(f"Supabase read error (falling back to local): {e}")
+
         if not os.path.exists(self.db_path):
             return {"papers": []}
         try:
@@ -40,6 +60,12 @@ class LibraryDB:
             return {"papers": []}
 
     def _write_atomic(self, data: dict, path: str):
+        if supabase and path == self.db_path:
+            try:
+                supabase.table("json_store").upsert({"id": "library", "data": data}).execute()
+            except Exception as e:
+                print(f"Supabase write error: {e}")
+
         dir_name = os.path.dirname(path)
         os.makedirs(dir_name, exist_ok=True)
         fd, temp_path = tempfile.mkstemp(dir=dir_name, text=True)
