@@ -9,7 +9,47 @@
             "url": "https://example.com/system-check",
             "scouted_at": "2026-09-22T02:35:53.542429",
             "status": "scouted"
+        },
+        {
+            "title": "KESAHAN DAN KEBOLEHPERCAYAAN PEMBANGUNAN MODUL INTERAKTIF BERASASKAN TEKNOLOGI AUGMENTED REALITY BAGI KURSUS PEMBINAAN BANGUNAN II",
+            "authors": "Dayana Farzeeha Ali",
+            "year": 2022,
+            "abstract": "Focuses on evaluating the validity and reliability of an interactive Augmented Reality (AR) learning module designed for the Building Construction II (Pembinaan Bangunan II) course in Malaysian Kolej Vokasional.",
+            "relevance_score": 10,
+            "scouted_at": "2026-09-22T09:15:38.743654"
+        },
+        {
+            "title": "Kompetensi guru dalam pengajaran amali teknologi pembinaan di kolej vokasional",
+            "authors": "Syed Rashid Ali, Syed Hussin Jaafar",
+            "year": 2014,
+            "abstract": "Investigates teacher competencies in practical teaching specifically tailored for the Construction Technology (Teknologi Pembinaan) vocational program at Malaysian Kolej Vokasional.",
+            "relevance_score": 10,
+            "scouted_at": "2026-09-22T09:16:22.249915"
+        },
+        {
+            "title": "Pembangunan Instrumen Karakter Kreatif Pelajar Pendidikan Teknikal Dan Latihan Vokasional (TVET)",
+            "authors": "Abd Rahman Wahab, Mohd Sukri Saud",
+            "year": 2021,
+            "abstract": "Focuses on developing an assessment instrument to measure creative character traits among Malaysian TVET students, highly applicable to Kolej Vokasional student evaluation models.",
+            "relevance_score": 7,
+            "scouted_at": "2026-09-22T09:16:22.249932"
+        },
+        {
+            "title": "Pendekatan Kebolehsuaian Kerjaya dalam kalangan Pelajar Kolej Vokasional di Selangor",
+            "authors": "Zulhazmi Zahari, Muhd Khaizer Omar",
+            "year": 2021,
+            "abstract": "Examines career adaptability approaches and readiness among Kolej Vokasional students in Selangor, Malaysia.",
+            "relevance_score": 8,
+            "scouted_at": "2026-09-22T09:16:22.249936"
+        },
+        {
+            "title": "Persediaan Program School Enterprise di Kolej Vokasional, Malaysia: Aplikasi Fuzzy Delphi",
+            "authors": "Norfariza Mohd Radzi, Muhammad Faizal A. Ghani",
+            "year": 2021,
+            "abstract": "Utilizes the Fuzzy Delphi Method to evaluate the readiness and implementation of the School Enterprise program across Kolej Vokasional institutions in Malaysia.",
+            "relevance_score": 8,
+            "scouted_at": "2026-09-22T09:16:22.269304"
         }
     ],
-    "last_scout_date": "2026-09-21"
+    "last_scout_date": "2026-09-22"
 }
