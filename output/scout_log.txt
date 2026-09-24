@@ -3,3 +3,5 @@
 [2026-09-22T18:11:00] Scout skipped — already ran today.
 [2026-09-23T18:11:16] Scout started.
 [2026-09-23T18:14:21] Scout complete. Found 7 new papers. Used Key 2.
+[2026-09-24T18:10:22] Scout started.
+[2026-09-24T18:23:07] Scout complete. No new papers found (all 5 duplicates).
