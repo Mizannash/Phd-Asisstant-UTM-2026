@@ -60,3 +60,5 @@
 [2026-10-25T20:19:13] Scout complete. No new papers found (all 10 duplicates).
 [2026-10-26T22:12:55] Scout started.
 [2026-10-26T22:13:51] Scout complete. No new papers found (all 10 duplicates).
+[2026-10-27T21:43:49] Scout started.
+[2026-10-27T21:44:25] Scout complete. No new papers found (all 8 duplicates).
