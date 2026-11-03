@@ -74,3 +74,4 @@
 [2026-11-01T21:38:06] Scout complete. No new papers found (all 8 duplicates).
 [2026-11-03T00:21:50] Scout started.
 [2026-11-03T00:22:28] Scout complete. No new papers found (all 9 duplicates).
+[2026-11-03T22:49:00] Scout skipped — already ran today.
