@@ -93,3 +93,5 @@
 [2026-11-12T23:06:45] Scout skipped — already ran today.
 [2026-11-13T23:09:29] Scout started.
 [2026-11-13T23:11:46] Scout complete. No new papers found (all 7 duplicates).
+[2026-11-14T21:55:07] Scout started.
+[2026-11-14T21:57:09] Scout complete. No new papers found (all 14 duplicates).
