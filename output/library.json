@@ -325,7 +325,15 @@
             "abstract": "Analyzes employer feedback and graduate tracking data regarding the industry relevance of TVET skills taught to Teknologi Pembinaan students in Malaysian Kolej Vokasional.",
             "relevance_score": 9,
             "scouted_at": "2026-11-21T22:46:00.265067"
+        },
+        {
+            "title": "Tahap Kesediaan Penerimaan Sistem Pengurusan Bengkel Untuk Program Teknologi Elektrik di Kolej Vokasional",
+            "authors": "Mohd Lutfi Mohd Raffi",
+            "year": 2026,
+            "abstract": "Kajian menilai kesediaan dan tahap penerimaan sistem pengurusan bengkel digital di Kolej Vokasional. [Methodology Reference — Chapter 3]",
+            "relevance_score": 5,
+            "scouted_at": "2026-11-22T23:08:23.060318"
         }
     ],
-    "last_scout_date": "2026-11-21"
+    "last_scout_date": "2026-11-22"
 }
