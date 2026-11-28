@@ -117,3 +117,5 @@
 [2026-11-26T01:42:52] Scout complete. No new papers found (all 4 duplicates).
 [2026-11-27T01:25:37] Scout started.
 [2026-11-27T01:29:27] Scout complete. No new papers found (all 6 duplicates).
+[2026-11-28T00:59:12] Scout started.
+[2026-11-28T01:01:44] Scout complete. Found 1 new papers. Used Key 1.
